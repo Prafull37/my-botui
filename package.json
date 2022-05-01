@@ -1,0 +1,39 @@
+{
+  "name": "my-botui",
+  "version": "0.0.8",
+  "description": "Fully Customizable Ui Library for Chats and ChatBots,",
+  "repository": "https://github.com/Prafull37/chatbot-ui",
+  "author": "Prafull37",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/react": "^6.4.22",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "node-sass": "^7.0.1",
+    "path": "^0.12.7",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start:story": "start-storybook",
+    "start:watch":"webpack watch"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "main": "dist/index.js"
+}
